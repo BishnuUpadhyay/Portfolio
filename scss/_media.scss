@@ -1,0 +1,145 @@
+@media (max-width:1200px) {
+    .home {
+        min-height: auto;
+    }
+
+    // .aside {
+    //     position: fixed;
+    //     top: 0px;
+    //     left: 0px;
+    //     height: 100vh;
+    // }
+
+    .nav {
+        position: absolute;
+        top: 150px;
+
+    }
+}
+
+@media (max-width:992px) {
+
+    .aside {
+        left: -270px;
+        position: fixed;
+        top: 0px;
+        min-height: 100vh;
+        // display: none;
+    }
+
+    .aside .nav {
+        margin-top: 5vw;
+    }
+
+    .aside .nav-toggle {
+        display: flex;
+        place-items: center;
+    }
+
+    .main-content {
+        left: 0;
+    }
+
+    // .aside .nav {
+    //     margin-top: -300px;
+    // }
+    .aside .nav-toggle {
+        display: flex;
+        place-items: center;
+        left: 85vw;
+        top: 20px
+    }
+}
+
+@media(max-width:768px) {
+
+    .nav {
+        position: absolute;
+        top: 100px;
+    }
+
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .main-content .section .container .row-reverse {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .portfolio .container .row .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .main-content .section .container .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .home-img {
+        padding-bottom: 5vw;
+    }
+
+    .home .home-img {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+@media(max-width:576px) {
+
+    .section .container .about-content .row .personal-info,
+    .section .container .about-content .row .education {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .section .container .about-content .row .info-item,
+    .section .container .about-content .row .skills,
+    .service .service-items {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .service .service-items {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio .container .row .portfolio-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contact .contact-form .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .aside .nav-toggle {
+        display: flex;
+        place-items: center;
+        left: 85vw;
+    }
+
+    .contact .contact-info-item p {
+        display: none;
+    }
+    .nav-toggle{
+        display:none !important;
+    }
+    .my-profession1{
+        display: block !important;
+    }
+    .my-profession{
+        display:none !important;
+    }
+}
+@media(max-width:376px){
+.aside{
+    display: none;
+}
+}

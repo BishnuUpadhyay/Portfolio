@@ -1,0 +1,86 @@
+.home{
+    min-height: 100vh;
+    padding-top: 0vw!important;
+    display: flex;
+    color: var(--text-black-900);
+    padding: 0px 30px;
+    .home-info{
+        flex: 0 0 60%;
+        max-width: 60%;
+        // justify-items: center;
+        .hello{
+           
+                font-size: 28px;
+                margin: 15px 0;
+                span{
+                    font-family: 'Clicker Script', cursive;
+               font-size: 30px;
+               font-weight: 700;
+               color: var(--skin-color);
+            }
+        }
+        .my-profession{
+            font-size: 30px;
+            margin: 15px 0;
+            margin-top: 5vw;
+            .typing{
+                color: var(--skin-color);
+            }
+        }
+        .my-profession1{
+            display: none;
+            font-size: 30px;
+            margin: 15px 0;
+            margin-top: 5vw;
+            .typing1{
+                color: var(--skin-color);
+            }
+        }
+        p{
+            margin-bottom: 70px;
+            font-size: 20px;
+            color: var(--text-black 700);
+        }
+    }
+    .home-img{
+        flex: 0 0 40%;
+        max-width: 40%;
+        text-align: center;
+        position: relative;
+  }
+        img{
+        width:100%;
+        display: block;
+        border-radius  : 50%;
+        border-bottom: clamp(3px, .5vw, 6px) solid var(--skin-color);
+        // border-top: 6px solid var(--skin-color);
+        filter: brightness(50%);
+        
+        }
+    }
+.padd-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    // padding-top: 10vh;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+position: relative;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    background-color: var(--skin-color);
+    color: #fff;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    transition: all ,.3s ease;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
